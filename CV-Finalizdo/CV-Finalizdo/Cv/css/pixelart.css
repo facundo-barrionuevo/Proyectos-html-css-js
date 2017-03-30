@@ -1,0 +1,139 @@
+/*CODIGO PERTENENCIA GRIFF OF THE PROGRAMEISHON DON'T TOUCH THIS MADAFAKA*/
+
+#container{
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	border: 5px solid black;
+	cursor: pointer;
+}
+
+.izquierda{
+	margin-left: 50px;
+	margin-top: 100px;
+	float: left;
+}
+
+.derecha{
+	float: left;
+	margin-top: 75px;
+	margin-left: 30px;
+}
+
+#color-pick>div{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#color-pick>div.select{
+	border: 1px solid black;
+}
+
+.botones{
+	margin-top: 75px;
+	margin-left: 30px;
+	float: left;
+}
+
+button{
+	width: 85px;
+	height: 40px;
+	margin-top: 10px;
+}
+
+span{
+	color: red;
+}
+
+.white{
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.black{
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: black;
+}
+
+.red{
+		width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: red;
+}
+
+.orange{
+		width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: orange;
+}
+
+.blue{
+		width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: blue;
+}
+
+.aqua{
+		width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: aqua;
+}
+
+.gold{
+		width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: gold;
+}
+
+.magenta{	
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: magenta;
+}
+
+.lime{	
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: lime;
+}
+
+input{
+	width: 130px;
+	height: 30px;
+}
+
+.TH{
+	font-size: 30px;
+	color: black;
+	font-weight: bolder;
+	border: 1px solid black;
+	background-color: white;
+	width: 130px;
+}
+
+#container .cell {
+    float: left;
+    background: #ecf0f1;
+    outline: 1px solid #fff;
+    cursor: pointer;
+}
+
+#container .cell.no-border {
+    outline: none;
+}
+
+.guardar{
+	/*float: left;*/
+	margin-left: 50px;
+}

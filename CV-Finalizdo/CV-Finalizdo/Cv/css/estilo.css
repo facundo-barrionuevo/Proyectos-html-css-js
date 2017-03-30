@@ -1,0 +1,373 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    min-height: 100%;
+    background-color: #efefef;
+    height: 100%
+}
+
+
+.titulo-seccion {
+    font-size: 15px;
+    line-height: 22px;
+    /*text-transform: uppercase;*/
+    font-weight: 800;
+}
+
+.nombre {
+    font-size: 28px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.profesion {
+    color: #777;
+    font-size: 22px;
+    font-weight: 300;
+	line-height: 30px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+p {
+	font-size: 12px;
+    color: #777;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.inf {
+	color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    width: 35%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: #fff;
+    border-right: 1px solid #efefef;
+}
+
+.value {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    width: 63%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.seccion-titulo {
+	border-bottom: 1px solid #efefef;
+    padding: 30px 10px 2px 40px;
+    position: relative;
+}
+
+.sobre-mi,
+.estudios,
+.experiencia-laboral,
+.hobbies {
+	padding: 30px 40px;
+}
+
+.hobbies{
+    height: 200px;
+}
+a {
+	text-decoration: none;
+}
+
+.texto-hipervinculo {
+	font-weight: 700;
+    font-size: 12px;
+    line-height: 44px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #85878b;
+    margin: 0 20px 0 0;
+}
+
+.item {
+	border-bottom: 1px solid #26292e;
+    padding: 0px; 
+    height: 45px;
+    float: left;
+    width: 25%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin:0;
+}
+
+.hipervinculo:hover .texto-hipervinculo {
+	color: white;
+}
+
+.contenedor {
+	max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+html {
+	height: 100%;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.c-derecha {
+	background: #ffffff;
+    width: 100%;    
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.c-izquierda{
+    width: 22.5%;
+    float: left;
+    position: fixed;
+    max-height: auto;
+    max-width: 22.5%;
+}
+
+.programar{
+    background-image: url('../img/aprender_a_programar.jpg');
+    width: 100%;
+    min-height: 140px;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.imagen-programar{
+    width: 31%;
+    margin-right: 1%;
+    margin-left: 1%;
+    float: left;
+}
+
+.futbol{
+    background-image: url('../img/futbol.jpg');
+    width: 100%;
+    min-height: 140px;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.imagen-futbol{
+    width: 31%;
+    margin-right: 1%;
+    margin-left: 1%;
+    float: left;
+}
+
+.cantar{
+    background-image: url('../img/cantar.jpg');
+    width: 100%;
+    min-height: 140px;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.imagen-cantar{
+    width: 31%;
+    margin-right: 1%;
+    margin-left: 1%;
+    float: left;
+}
+
+.texto-hobbies{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.w-clearfix:before,
+.w-clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.w-clearfix:after {
+    clear: both;
+}
+
+.hipervinculo {
+    background: #33373d;
+    display: inline-block;
+    width: 100%;
+}
+
+.hipervinculo:hover {
+    background: blue;
+}
+
+.icono {
+    width: 24px;
+    height: 24px;
+    float: left;
+    background-position: 0px 0px;
+    background-size: cover;
+    margin: 10px 20px;
+}
+
+.icono.imagen-sobre-mi {
+    background-image: url('../img/sobre-mi.png');
+}
+
+.icono.imagen-estudios {
+    background-image: url('../img/educacion.png');
+}
+
+.icono.imagen-experiencia-laboral {
+    background-image: url('../img/experiencia-laboral.png');
+}
+
+.icono.imagen-hobbies {
+    background-image: url('../img/hobbie.png');
+}
+.hipervinculo:hover .icono.imagen-sobre-mi {
+    background-image: url('../img/sobre-mi-hover.png');
+}
+.hipervinculo:hover .icono.imagen-estudios {
+    background-image: url('../img/educacion-hover.png');
+}
+
+.hipervinculo:hover .icono.imagen-experiencia-laboral {
+    background-image: url('../img/experiencia-laboral-hover.png');
+}
+
+.hipervinculo:hover .icono.imagen-hobbies {
+    background-image: url('../img/hobbie-hover.png');
+}
+
+.foto-de-perfil{
+	width:30%;
+    float:left;
+    display: inline-block;
+    padding-right: 2%;
+    margin-left: 9%;
+}
+
+.descripcion{
+    width:50%;
+    float:left;
+    font-style: italic;
+}
+
+p{
+    
+}
+
+.redes-sociales {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 26%;
+    background-color: #ffffff;
+    text-align: center;
+
+}
+
+.red {
+    width: 30px;
+    height: 30px;
+    margin-left: 20%;
+    float: left;
+    display: inline-block;
+    margin-top:5px;
+}
+
+.red.facebook {
+    background-image: url('../img/redes-facebook.png');
+    background-position: 0px 0px;
+    background-size: cover;
+
+}
+
+.red.facebook:hover {
+    background-image: url('../img/redes-facebook-hover.png');
+}
+
+.red.twitter {
+    background-image: url('../img/redes-twitter.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.red.twitter:hover {
+    background-image: url('../img/redes-twitter-hover.png');
+}
+
+.lista-datos-uno {
+	width: 49%;
+    float: left;
+    border: 1px solid #efefef;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    clear:left;
+}
+
+.lista-datos-dos {
+    width: 49%;
+    float: right;
+    border: 1px solid #efefef;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.lista-datos-uno li {
+    border-bottom: 1px solid #efefef;
+    background: #fafafa;
+}
+
+.lista-datos-dos li {
+    border-bottom: 1px solid #efefef;
+    background: #fafafa;
+}
+
+img {
+	width: 100%;
+}
+
+.linea {
+    position: absolute;
+    left: 30px;
+    top: 62px;
+    width: 60px;
+    margin-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #fff;
+}
+
+h6{
+    font-weight: 800;
+    font-size: 13px;
+    color: #656565;
+}
+
+.parrafo{
+    padding-left: 15px;
+}
+
+.parrafo1{
+float: left
+width: 100px;
+}

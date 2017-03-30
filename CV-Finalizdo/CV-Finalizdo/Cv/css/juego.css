@@ -1,0 +1,19 @@
+#juego{
+	position: relative;
+	width: 600px;
+	height: 600px;
+	background-color: #b2ffff;
+	border: 5px solid black;
+	float: left;
+}
+
+.pieza{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	display: block;
+	background-size: cover;
+	background-position: center center;
+	transition: 0.5s ease;
+}
+
